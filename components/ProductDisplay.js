@@ -56,7 +56,7 @@ app.component('product-display', {
   },
   methods: {
       addToCart() {
-          this.cart += 1
+        this.$emit('add-to-cart')
       },
       updateVariant(index) {
           this.selectedVariant = index
@@ -78,5 +78,6 @@ app.component('product-display', {
         }
         return 2.99
       }
+      
   }
 })
