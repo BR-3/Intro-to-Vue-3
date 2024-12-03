@@ -5,5 +5,7 @@ const app = Vue.createApp({
             premium: true
         }
     },
-    methods: {}
+    methods: {
+        
+    }
 })
